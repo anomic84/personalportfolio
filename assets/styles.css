@@ -1,0 +1,30 @@
+/* testing out wireframes and basic css*/
+ul {
+    list-style-type: none;
+    height: 50px;
+    /* margin: 0; */
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: right;
+    margin: 0 10px;
+    color: #FA5;
+}
+
+.buttons {
+    font-family
+}
+
+header {
+    color: #333;
+    background-color: #209CEE;
+    ;
+}
+
+.article {
+    border: solid #000
+}
