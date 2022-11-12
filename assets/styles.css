@@ -35,27 +35,42 @@ header {
 
 ol {
     display: flex;
-
-    /* flex-direction: row-reverse; */
-    /* background-color: var(--darkgray); */
-
 }
 
-/* li {
-    float: right;
-    margin: 0 10px;
-    color: var(--gold);
-} */
 
 .nav-link {
     float: right;
     text-decoration: none;
     font-size: 25px;
-    color: var(--gold);
+    color: var(--lightblue);
     text-decoration: underline;
     text-underline-offset: 5px;
     padding-right: 15px;
     display: inline-block;
+}
+
+.hero {
+    height: 300px;
+    width: 100%;
+    /* margin-bottom: 25px; */
+    /* background-image: url(https://i.imgur.com/jt0CaSD.jpg); */
+    /* background-size: cover;
+    background-position: center; */
+}
+
+.article {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    font-size: 50px;
+    color: var(--darkgray);
+    padding-right: 100px;
+    border-right: 3px solid black;
+    border-style: ;
 }
 
 /* .buttons {
