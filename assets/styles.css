@@ -59,25 +59,39 @@ ol {
 }
 
 .article {
-    height: 200px;
+    /* height: 200px; */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+    margin: 80px;
+
 }
 
 .left {
+
     font-size: 50px;
     color: var(--darkgray);
     padding-right: 100px;
-    border-right: 3px solid black;
-    border-style: ;
+    border-right: 5px solid var(--darkgray)
+        /* border-right: 3px solid black;
+    border-style: ; */
+}
+
+.right {
+    display: flex;
+    color: var(--darkgray);
+}
+
+.contact {
+    color: var(--darkgray);
+    padding: 0 50px;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 
 /* .buttons {
     font-family
 } */
-
-
-.article {
-    border: solid #000
-}
