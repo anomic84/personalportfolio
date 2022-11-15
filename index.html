@@ -21,9 +21,9 @@
         <!-- Put photo of me (circle) in left side of nav bar [x] -->
         <!-- <img src="https://i.imgur.com/3LNWXN5.jpg" class="mypic" alt="Spencer Carlson" /> -->
         <nav>
-            <ol class="buttons">
+            <ol class="btns">
                 <li><a class="nav-link" href="#about-me">About Me</a></li>
-                <li><a class="nav-link" href="#my-works">My Works</a></li>
+                <li><a class="nav-link" href="#works">Works</a></li>
                 <li><a class="nav-link" href="#contact-me">Contact Me</a></li>
             </ol>
         </nav>
@@ -31,38 +31,72 @@
     <div></div>
     <img src="https://i.imgur.com/jt0CaSD.jpg" class="hero" alt="banner immage" />
     </div>
-    <section class="content">
-        <article id="about-me" class="article">
+    <main class="content">
+        <section id="about-me" class="article">
             <!-- add a span to emphasize key words? -->
-            <h2 class="left">About Me</h2>
-            <section class="border-line">
+            <div>
+                <h2 class="left">About Me</h2>
+            </div>
+            <article class="border-line">
                 <p class="right">A Seattle-based Junior Developer, Spencer Carlson is a full-stack Software Engineer
                     trained
                     in HTML, CSS,
                     and
                     Javascript. He has a passion for Data analyses and backend website development.</p>
-            </section>
-        </article>
-        <article id="my-works" class="article">
-            <h2 class="left">My Works</h2>
-
-            <p class="right">My apps go here</p>
+                </p>
+            </article>
+        </section>
+        <section id="works" class="article">
+            <div>
+                <h2 class="left">Works</h2>
+            </div>
+            <!-- <p class="right">My apps go here</p> -->
             <!-- My Work - Titled images, first work MUST be larger than others -->
-        </article>
+            <article class="containters">
+                <container class="main-containter">
+                    <article class="main">
+                        <img src="https://i.imgur.com/13vMFfg.jpg" class="workphotoBig" alt="posies">
+                    </article>
+                </container>
+                <container class="works-fb-container">
+                    <div class="row1">
+                        <!-- <article class="work"> -->
+                        <img src="https://i.imgur.com/zEuB1WP.jpg" class="workphoto" alt="benbow" />
+                        <!-- </article> -->
+                        <!-- <article class="work"> -->
+                        <img src="https://i.imgur.com/ZPAv7MR.jpg" class="workphoto" alt="folklife" />
+                        <!-- </article> -->
+                    </div>
+                    <div class="row2">
+                        <!-- <article class="work"> -->
+                        <img src="https://i.imgur.com/w86vHYD.jpg" class="workphoto" alt="benbow2" />
+                        <!-- </article> -->
+                        <!-- <article class="work"> -->
+                        <img src="https://i.imgur.com/yYo1kYS.jpg" class="workphoto" alt="kirkland" />
+                        <!-- </article> -->
+                    </div>
+                </container>
+            </article>
+        </section>
         <!-- finish body element -->
 
         <!-- its own section -->
         <article id="contact-me" class="article">
-            <h2 class="left">Contact Me</h2>
-            <ol class="contact">
-                <li>555.555.5555</li>
-                <li>email</li>
-                <li>GitHub</li>
-                <li>Twitter</li>
-                <li>Spotify</li>
-            </ol>
+            <div>
+                <h2 class="left">Contact Me</h2>
+            </div>
+            <article>
+                <ol class="contact">
+                    <li>555.555.5555</li>
+                    <li>email</li>
+                    <li>GitHub</li>
+                    <li>Twitter</li>
+                    <li>Spotify</li>
+                </ol>
+            </article>
+
         </article>
-    </section>
+    </main>
 
 
     <!-- Make nav links right side, About me[ ], My Work [ ] Contact form [ ] -->

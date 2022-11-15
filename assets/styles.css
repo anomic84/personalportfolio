@@ -4,6 +4,7 @@
     --darkgray: #333;
     --lightblue: #209CEE;
     --gold: #FA5;
+    --bground: white;
 }
 
 header {
@@ -22,6 +23,7 @@ header {
 
 .name {
     padding-left: 40px;
+    padding-right: 20px;
     font-size: 50px;
     color: var(--darkgray);
 }
@@ -88,13 +90,21 @@ ol {
 }
 
 .article {
-    /* height: 200px; */
     display: flex;
-    justify-content: center;
-    /* align-items: center;
-    justify-content: center; */
-    margin: 80px;
+    margin: 25px;
+}
 
+.article div {
+    width: 25%;
+}
+
+.article article {
+    width: 75%;
+}
+
+.article p {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .left {
@@ -118,11 +128,60 @@ ol {
     display: flex;
     flex: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
 
 }
 
-.
+/* -------------- WORKS --------------  */
+.containters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.main-container {
+    flex-shrink: 0;
+    height: 300px;
+    border: 5px solid var(--lightblue);
+}
+
+.containers article img {
+    height: 100px;
+    width: 100px;
+}
+
+.works-fb-container {
+    margin: 0;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+/* .work {
+    flex-grow: 1; 
+    background-color: var(--bground);
+    width: 100%;
+    margin: 10%;
+    border: 5px solid var(--lightblue);
+} */
+
+.workphoto {
+    height: 400px;
+    width: 400px;
+    margin: 10%;
+}
+
 /* .buttons {
-    font-family
+
 } */
