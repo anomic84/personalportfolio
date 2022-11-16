@@ -96,6 +96,7 @@ ol {
 
 .article div {
     width: 25%;
+    text-align: right;
 }
 
 .article article {
@@ -103,6 +104,8 @@ ol {
 }
 
 .article p {
+    font-family: Baskerville;
+    font-size: 25px;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -123,8 +126,10 @@ ol {
 }
 
 .contact {
+    width: 90%;
     color: var(--darkgray);
     padding: 0 50px;
+    padding-left: 175px;
     display: flex;
     flex: wrap;
     align-items: center;
@@ -134,37 +139,57 @@ ol {
 }
 
 /* -------------- WORKS --------------  */
-.containters {
+.containers {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 
 .main-container {
-    flex-shrink: 0;
-    height: 300px;
-    border: 5px solid var(--lightblue);
+    /* flex-shrink: 0; */
+    /* height: 300px; */
+    border: 30px outset var(--lightblue);
 }
 
-.containers article img {
-    height: 100px;
-    width: 100px;
+/* .works-fb-container {
+    border: 30px outset var(--lightblue);
+} */
+
+.BigImgBox {
+    position: absolute;
+    background-color: var(--lightblue);
+    bottom: 90px;
+    padding: 10px;
+    width: 20%;
 }
 
-.works-fb-container {
-    margin: 0;
-}
+
+
 
 .row1 {
     display: flex;
     justify-content: space-between;
+
     width: 100%
+}
+
+.SmallBoxImage {
+
+    position: absolute;
+    background-color: var(--lightblue);
+    width: 25%;
+    bottom: 45px;
+    bottom: 20px;
+    padding: 10px;
+
 }
 
 .row2 {
     display: flex;
     justify-content: space-between;
+
     width: 100%
 }
 
@@ -177,9 +202,22 @@ ol {
 } */
 
 .workphoto {
-    height: 400px;
-    width: 400px;
-    margin: 10%;
+    height: 500px;
+    width: 500px;
+    margin: 10px 10px;
+    border: 30px outset var(--lightblue);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.workphotoBig:hover {
+    filter: blur(4px);
+    transition: 0.8s;
+}
+
+.workphoto:hover {
+    filter: blur(4px);
+    transition: 0.8s;
 }
 
 /* .buttons {
