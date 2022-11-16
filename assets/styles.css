@@ -41,7 +41,7 @@ ol {
 
 
 .nav-link {
-    float: right;
+    /* float: right; */
     font-size: 25px;
     color: var(--lightblue);
     /* text-decoration: underline;
@@ -125,18 +125,7 @@ ol {
     color: var(--darkgray);
 }
 
-.contact {
-    width: 90%;
-    color: var(--darkgray);
-    padding: 0 50px;
-    padding-left: 175px;
-    display: flex;
-    flex: wrap;
-    align-items: center;
-    justify-content: space-between;
 
-
-}
 
 /* -------------- WORKS --------------  */
 .containers {
@@ -210,6 +199,39 @@ ol {
     transition: 0.8s;
 }
 
+/* ---------------------------- FOOTER ----------------------------  */
+
+.contact {
+    width: 90%;
+    color: var(--darkgray);
+    padding: 0 50px;
+    padding-left: 175px;
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.footlinks {
+    font-family: Open Sans;
+    font-size: 25px;
+    color: var(--darkgray);
+    padding-right: 15px;
+    display: inline-block;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    line-height: normal;
+
+}
+
+/* ---------------------------- HOVER EFFECTS ----------------------------  */
+
 .workphotoBig:hover {
     filter: blur(4px);
     transition: 0.8s;
@@ -218,6 +240,11 @@ ol {
 .workphoto:hover {
     filter: blur(4px);
     transition: 0.8s;
+}
+
+.footlinks:hover {
+    color: var(--lightblue);
+    transition: .5s;
 }
 
 /* .buttons {
