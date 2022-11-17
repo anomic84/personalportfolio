@@ -18,7 +18,8 @@ header {
 }
 
 .header {
-    width: 100%
+    width: 100%;
+
 }
 
 
@@ -96,7 +97,7 @@ ol {
     background-position: center; */
 }
 
-*/ .content {
+.content {
     display: flex;
     flex-direction: column;
     flex-basis: auto;
@@ -154,7 +155,7 @@ ol {
 .main-container {
     /* flex-shrink: 0; */
     /* height: 300px; */
-    border: 30px outset var(--lightblue);
+
 }
 
 /* .works-fb-container {
@@ -204,6 +205,9 @@ ol {
     margin: 10%;
     border: 5px solid var(--lightblue);
 } */
+.workphotoBig {
+    border: 30px outset var(--lightblue);
+}
 
 .workphoto {
     height: 500px;
@@ -260,4 +264,41 @@ ol {
 .footlinks:hover {
     color: var(--lightblue);
     transition: .5s;
+}
+
+/* ---------------------------- MEDIA QUERIES ----------------------------  */
+
+@media screen and (max-width: 768px) {
+
+    body,
+    header,
+    nav,
+    div,
+    section ol {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    .header {
+        width: 100%;
+        border: 5px red;
+    }
+
+    .workphotoBig {
+        height: 500px;
+        width: 500px;
+        margin: 10px 10px;
+        border: 30px outset var(--lightblue);
+        cursor: pointer;
+        transition: 0.8s;
+    }
+
+    .left {
+
+        font-size: 35px;
+
+
+    }
 }
