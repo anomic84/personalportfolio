@@ -81,6 +81,7 @@ ol {
 .heroself {
     height: 432px;
     width: 432px;
+    position: absolute;
 }
 
 .hero {
@@ -286,18 +287,20 @@ h3 {
     }
 
     .herodiv {
-
         display: flex;
+        width: 100%;
+        align-items: flex-start;
     }
 
     .heroself {
         height: 216px;
         width: 216px;
+        position: absolute;
     }
 
     .hero {
         height: 216px;
-        width: 552px;
+        width: 100%;
     }
 
     .workphotoBig {
@@ -347,20 +350,20 @@ h3 {
 
     .hero {
         height: 144px;
-        width: 336px;
+        width: 100%;
     }
 
     .workphotoBig {
-        height: 300px;
-        width: 300px;
+        height: 180px;
+        width: 180px;
         margin: 10px 10px;
         border: 15px outset var(--lightblue);
 
     }
 
     .workphoto {
-        height: 300px;
-        width: 300px;
+        height: 180px;
+        width: 180px;
         border: 15px outset var(--lightblue);
     }
 
