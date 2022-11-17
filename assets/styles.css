@@ -75,6 +75,7 @@ ol {
 
 .herodiv {
     display: flex;
+    width: 100%;
 }
 
 .heroself {
@@ -84,7 +85,7 @@ ol {
 
 .hero {
     height: 432px;
-    width: 100%;
+    width: 1172px;
 }
 
 .content {
